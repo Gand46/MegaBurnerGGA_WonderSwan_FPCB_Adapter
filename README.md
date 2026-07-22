@@ -69,4 +69,4 @@ This is a validated prototype design, not a substitute for manufacturer DFM appr
 
 ## License
 
-No public license has been selected. Add an appropriate hardware license before publishing the repository publicly.
+Workingonit
