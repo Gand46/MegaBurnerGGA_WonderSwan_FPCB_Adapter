@@ -1,0 +1,192 @@
+{
+  "project": "FPCB_SOP44_to_TSOPII44_REV_D2_EDGE_PADS_TOP_10MM",
+  "overall_pass": true,
+  "checks_passed": 32,
+  "checks_total": 32,
+  "dimensions_mm": {
+    "width": 17.299999999999997,
+    "height": 58.0
+  },
+  "hinge_mm": {
+    "length": 10.0,
+    "width": 10.9,
+    "tracks": 44,
+    "vias": 0,
+    "pads": 0
+  },
+  "endpoints": {
+    "J1": {
+      "side": "B.Cu",
+      "rotation_deg": 90,
+      "pads": 44
+    },
+    "J2": {
+      "side": "F.Cu",
+      "rotation_deg": 180,
+      "pads": 44,
+      "pin1": "outer end"
+    }
+  },
+  "checks": [
+    {
+      "check": "endpoint_references",
+      "pass": true,
+      "detail": "References=['J1', 'J2']"
+    },
+    {
+      "check": "forty_four_pads_per_endpoint",
+      "pass": true,
+      "detail": "J1=44; J2=44"
+    },
+    {
+      "check": "direct_pin_n_to_pin_n_mapping",
+      "pass": true,
+      "detail": "44 direct nets /PIN_01 through /PIN_44"
+    },
+    {
+      "check": "j1_vertical_on_bottom",
+      "pass": true,
+      "detail": "J1=(114.3, 114.3, 90.0 deg, B.Cu)"
+    },
+    {
+      "check": "j2_vertical_rotated_180_on_top",
+      "pass": true,
+      "detail": "J2=(114.3, 148.8, 180.0 deg, F.Cu)"
+    },
+    {
+      "check": "j1_pad_layers",
+      "pass": true,
+      "detail": "44 pads B.Cu/B.Mask/B.Paste"
+    },
+    {
+      "check": "j2_pad_layers",
+      "pass": true,
+      "detail": "44 edge pads F.Cu/F.Mask"
+    },
+    {
+      "check": "all_endpoint_pads_smd_no_drill",
+      "pass": true,
+      "detail": "88 SMD pads, no pad drills"
+    },
+    {
+      "check": "board_width_17_30mm",
+      "pass": true,
+      "detail": "Width=17.300 mm"
+    },
+    {
+      "check": "board_height_58_00mm",
+      "pass": true,
+      "detail": "Height=58.000 mm"
+    },
+    {
+      "check": "hinge_length_10_00mm",
+      "pass": true,
+      "detail": "Y=129.60..139.60 mm"
+    },
+    {
+      "check": "hinge_width_10_90mm",
+      "pass": true,
+      "detail": "Sides=[108.85, 119.75]"
+    },
+    {
+      "check": "via_count_44",
+      "pass": true,
+      "detail": "Vias=44"
+    },
+    {
+      "check": "no_vias_in_hinge",
+      "pass": true,
+      "detail": "0 vias in hinge"
+    },
+    {
+      "check": "via_drill_0_20mm",
+      "pass": true,
+      "detail": "Drill=0.20 mm"
+    },
+    {
+      "check": "no_track_vertices_inside_hinge",
+      "pass": true,
+      "detail": "Internal vertices=0"
+    },
+    {
+      "check": "exactly_44_tracks_cross_hinge",
+      "pass": true,
+      "detail": "Crossings=44"
+    },
+    {
+      "check": "all_44_nets_cross_once",
+      "pass": true,
+      "detail": "44 unique nets"
+    },
+    {
+      "check": "hinge_layers_22_plus_22",
+      "pass": true,
+      "detail": "F.Cu=22; B.Cu=22"
+    },
+    {
+      "check": "hinge_track_width_0_15mm",
+      "pass": true,
+      "detail": "Width=0.15 mm"
+    },
+    {
+      "check": "straight_vertical_hinge_tracks",
+      "pass": true,
+      "detail": "44 straight 10.00 mm segments"
+    },
+    {
+      "check": "no_pads_in_hinge",
+      "pass": true,
+      "detail": "0 endpoint pads in hinge"
+    },
+    {
+      "check": "j2_pad_size_1_40x0_45mm",
+      "pass": true,
+      "detail": "Sizes=[(1.4, 0.45)]"
+    },
+    {
+      "check": "j2_copper_reaches_both_edges",
+      "pass": true,
+      "detail": "Copper=108.85..119.75 mm"
+    },
+    {
+      "check": "j2_pitch_0_80mm",
+      "pass": true,
+      "detail": "Pitch=0.8000 mm"
+    },
+    {
+      "check": "j2_pin1_at_outer_end",
+      "pass": true,
+      "detail": "Pin1=(119.050, 157.200) mm"
+    },
+    {
+      "check": "logo_has_no_electrical_pads",
+      "pass": true,
+      "detail": "Graphic logo only"
+    },
+    {
+      "check": "custom_edge_rule_present",
+      "pass": true,
+      "detail": "Intentional J2 edge contact rule"
+    },
+    {
+      "check": "erc_clean",
+      "pass": true,
+      "detail": "ERC violations=0"
+    },
+    {
+      "check": "drc_clean",
+      "pass": true,
+      "detail": "DRC violations=0"
+    },
+    {
+      "check": "zero_unconnected_items",
+      "pass": true,
+      "detail": "Unconnected=0"
+    },
+    {
+      "check": "schematic_pcb_parity",
+      "pass": true,
+      "detail": "Parity issues=0"
+    }
+  ]
+}

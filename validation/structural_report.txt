@@ -1,0 +1,38 @@
+FINAL STRUCTURAL VALIDATION
+Project: FPCB_SOP44_to_TSOPII44_REV_D2_EDGE_PADS_TOP_10MM
+Source: user-supplied proyecto_Final.zip
+
+[OK] endpoint_references: References=['J1', 'J2']
+[OK] forty_four_pads_per_endpoint: J1=44; J2=44
+[OK] direct_pin_n_to_pin_n_mapping: 44 direct nets /PIN_01 through /PIN_44
+[OK] j1_vertical_on_bottom: J1=(114.3, 114.3, 90.0 deg, B.Cu)
+[OK] j2_vertical_rotated_180_on_top: J2=(114.3, 148.8, 180.0 deg, F.Cu)
+[OK] j1_pad_layers: 44 pads B.Cu/B.Mask/B.Paste
+[OK] j2_pad_layers: 44 edge pads F.Cu/F.Mask
+[OK] all_endpoint_pads_smd_no_drill: 88 SMD pads, no pad drills
+[OK] board_width_17_30mm: Width=17.300 mm
+[OK] board_height_58_00mm: Height=58.000 mm
+[OK] hinge_length_10_00mm: Y=129.60..139.60 mm
+[OK] hinge_width_10_90mm: Sides=[108.85, 119.75]
+[OK] via_count_44: Vias=44
+[OK] no_vias_in_hinge: 0 vias in hinge
+[OK] via_drill_0_20mm: Drill=0.20 mm
+[OK] no_track_vertices_inside_hinge: Internal vertices=0
+[OK] exactly_44_tracks_cross_hinge: Crossings=44
+[OK] all_44_nets_cross_once: 44 unique nets
+[OK] hinge_layers_22_plus_22: F.Cu=22; B.Cu=22
+[OK] hinge_track_width_0_15mm: Width=0.15 mm
+[OK] straight_vertical_hinge_tracks: 44 straight 10.00 mm segments
+[OK] no_pads_in_hinge: 0 endpoint pads in hinge
+[OK] j2_pad_size_1_40x0_45mm: Sizes=[(1.4, 0.45)]
+[OK] j2_copper_reaches_both_edges: Copper=108.85..119.75 mm
+[OK] j2_pitch_0_80mm: Pitch=0.8000 mm
+[OK] j2_pin1_at_outer_end: Pin1=(119.050, 157.200) mm
+[OK] logo_has_no_electrical_pads: Graphic logo only
+[OK] custom_edge_rule_present: Intentional J2 edge contact rule
+[OK] erc_clean: ERC violations=0
+[OK] drc_clean: DRC violations=0
+[OK] zero_unconnected_items: Unconnected=0
+[OK] schematic_pcb_parity: Parity issues=0
+
+RESULT: PASS (32/32)

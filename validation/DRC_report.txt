@@ -1,0 +1,11 @@
+** Drc report for FPCB_SOP44_to_TSOPII44_REV_D2_EDGE_PADS_TOP_10MM.kicad_pcb **
+** Created on 2026-07-22T00:00:06-0500 **
+** Report includes: Errores, Avisos, Exclusiones **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

@@ -1,0 +1,12 @@
+Parámetro,Valor,Estado
+Envolvente desplegada,17.30 x 58.00 mm,VALIDADA EN PCB
+Envolvente plegada estimada,17.30 x 37.10 mm + altura,CONDICIONAL
+Orientación SOP,Longitudinal vertical; pads en B.Cu,VALIDADA EN PCB
+Orientación TSOP,Longitudinal vertical; pads F.Cu; J2 a 180°,VALIDADA EN PCB
+Bisagra,10.00 x 10.90 mm,VALIDADA EN PCB
+Pistas/vías/pads en bisagra,44 / 0 / 0,VALIDAR POR SCRIPT
+Espesor nominal,0.099 mm,CONFIRMAR CON FABRICANTE
+Radio estático objetivo,>=1.20 mm,CABE EN 10mm
+Paso interfaz TSOP,0.80 mm,SIN CAMBIOS
+Pad host visible para soldar,1.00 mm hacia fuera,SIN CAMBIOS
+Terminal J2,F.Cu 1.40x0.45,RECOMENDADO

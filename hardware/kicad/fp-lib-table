@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "FPCB_Adapter")(type "KiCad")(uri "${KIPRJMOD}/FPCB_Adapter.pretty")(options "")(descr "Huellas personalizadas SOP44 y TSOPII44"))
+)
